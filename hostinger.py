@@ -7,11 +7,10 @@ import pandas as pd
 
 # Configurações de múltiplos servidores SMTP
 smtp_servers = [
-    ('smtp.hostinger.com', 587, 'prospeccao@mehsolucoes.com', 'Lum@1001'),
-    ('smtp.hostinger.com', 587, 'vendas@mehsolucoes.com', 'Lum@1001'),
-    ('smtp.hostinger.com', 587, 'euluccas@mehsolucoes.com', 'Lum@1001'),
-    ('smtp.hostinger.com', 587, 'marketing@mehsolucoes.com', 'Lum@1001'),
-    ('smtp.hostinger.com', 587, 'floresluccas@mehsolucoes.com', 'Lum@1001')
+    ('smp.hostinger.com', 587, 'Exemplo1.com', 'Senha1'),
+    ('smp.hostinger.com', 587, 'Exemplo2.com', 'Senha2'),
+    ('smp.hostinger.com', 587, 'Exemplo3.com', 'Senha3'),
+
 ]
 
 # Corpo do email em HTML
